@@ -1,0 +1,127 @@
+/* 通用样式开始 */
+*{padding:0;margin:0;}
+body,html {font: 12px/1.5 "微软雅黑", Arial;color: #666666;}
+a{text-decoration: none;color: #666666;}
+a:hover {color: #B61D1D;}
+.wrap {width: 990px;margin:0 auto;}
+.left {float: left;}
+.right {float: right;}
+.clearfix{clear: both;height: 0;}
+.addborder {border:1px solid red;}
+.center {text-align: center;}
+/* 通用样式结束 */ 
+
+/* 头部开始 */ 
+.nav {
+	height: 60px;
+	padding: 10px 0px;
+}
+
+.nav .wel {
+	font-size: 20px;
+	padding: 15px 0px 0px 20px;
+}
+/* 头部结束 */ 
+
+/* 内容开始 */ 
+.content {
+	height: 475px;
+	background: #E93854;
+}
+
+.login {
+	height: 475px;
+	background: url(../img/banner.png) no-repeat;
+}
+
+.login-form {
+	width: 350px;
+	background: #fff;
+	margin-top: 40px;
+	padding:20px 20px;
+}
+
+.login-form h2 {
+	font-weight: normal;
+
+}
+
+.login-form h2 a {
+	font-size: 12px;
+	padding-left: 20px;
+	vertical-align: bottom;
+	line-height: 30px;
+	background: url(../img/login-icons.png) no-repeat -104px -68px;
+}
+
+.item {
+	width: 345px;
+	height: 40px;
+	margin-top: 30px;
+	border:1px solid #BDBDBD;
+}
+
+.item label {
+	height: 40px;
+	width: 40px;
+	background: url(../img/login-icons.png) no-repeat 1px -47px;
+	border-right: 1px solid #BDBDBD;
+}
+
+.item input {
+	height: 40px;
+	width: 296px;
+	border:0 none;
+	padding-left: 8px;
+	font-size: 14px;
+}
+
+.item .psw {
+	background-position: -47px -47px;
+}
+
+.item2 {
+	margin-top: 20px;
+	font-size: 0px;
+}
+
+.item2 input {
+	font-size: 12px;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+.item2 label {
+	font-size: 12px;
+	vertical-align: middle;
+}
+
+.item2 a {
+	font-size: 12px;
+}
+
+.login-btn {
+	height: 40px;
+	width: 340px;
+	display: inline-block;
+	background: #E4393C;
+	margin-top: 30px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+}
+/* 内容结束 */
+
+/* 底部开始 */ 
+.footer {
+	margin-top: 20px;
+}
+.footer a {
+	padding:0px 15px; 
+}
+.copy {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+/* 底部结束 */ 
